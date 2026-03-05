@@ -7,10 +7,16 @@ getElementsByClassName:
 This is a JavaScript method that is used to select HTML elements using their class name. After selecting those elements, you can perform different operations on them.
 
 querySelector / querySelectorAll:
-getElementById directly returns that specific element, and getElementsByClassName returns an array-like collection that contains all elements with that class name. But querySelector returns the first matching node, and querySelectorAll returns a NodeList containing all matching elements.
+getElementById directly returns that specific element and getElementsByClassName returns an array-like collection that contains all elements with that class name. But querySelector returns the first matching node, and querySelectorAll returns a NodeList containing all matching elements.
 
+
+<!-- qns 2 -->
 2. How do you create and insert a new element into the DOM?
+first create a element by createElement() that I want as like i want a div then i write: {const div = document.createElement("div")} it make a div in a variable,
+2nd create innerText or innerHtml for this div,
+3rd then appendChild this in to the container or that we want as like i want to append this is a body then i will write {body.appendChild(div)},
 
+then it will append on body and we will show it..
 
 3. What is Event Bubbling? And how does it work?
 
