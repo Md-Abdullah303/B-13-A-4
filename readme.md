@@ -58,4 +58,6 @@ This code says run an event inside the id named list. Whenever you click anywher
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
 
+preventDefault(): It is used to turn off the default behavior of an element. When you click on an element it goes to another page, this is a default behavior, but if this is used then that action will be turned off.
 
+stopPropagation(): It is used to turn off event bubbling. That means if the event is on a child element, it will not be able to go to the parent element, it will be turned off before that.
