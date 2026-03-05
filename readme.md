@@ -18,7 +18,13 @@ first create a element by createElement() that I want as like i want a div then 
 
 then it will append on body and we will show it..
 
+
+
+<!-- qns 3 -->
 3. What is Event Bubbling? And how does it work?
+This is when an eventListener is added to a button or a specific place. When a click happens there, first the target element is found. Then by using that target element, its parentNode can be accessed, and if needed the parentNode of that parentNode can also be accessed and used.
+
+Like, inside a div there are h1, p, and another div. Now if an eventListener is added inside the last div, then with event.target the clicked element can be found, and if needed its parentNode can also be accessed {event.target.parentNode} in this way.
 
 
 4. What is Event Delegation in JavaScript? Why is it useful?
