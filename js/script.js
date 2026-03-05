@@ -177,12 +177,12 @@ function renderInterview() {
 
     if (interviewList.length === 0) {
         interviewSection.innerHTML = `
-            <div id="interviewNoJob" class=" flex bg-[#FFFFFF] rounded-lg  items-center justify-center flex-col space-y-2 py-16 border border-black/20">
+            <div id="interviewNoJob" class=" text-center flex bg-[#FFFFFF] rounded-lg  items-center justify-center flex-col space-y-2 py-16 border border-black/20">
                 <div class="">
                     <img src="./jobs.png" alt="">
                 </div>
-                <h1 class=" font-semibold text-[40px]">No jobs available</h1>
-                <p class=" text-[24px]">Check back soon for new job opportunities</p>
+                <h1 class=" font-semibold text-[20px] sm:text-[40px]">No jobs available</h1>
+                <p class=" text-[16px] sm:text-[24px]">Check back soon for new job opportunities</p>
              </div>
         `;
         return;
@@ -224,12 +224,12 @@ function renderRejected() {
 
     if (rejectedList.length === 0) {
         rejectedSection.innerHTML = `
-            <div id="interviewNoJob" class=" flex bg-[#FFFFFF] rounded-lg  items-center justify-center flex-col space-y-2 py-16 border border-black/20">
+            <div id="interviewNoJob" class=" text-center flex bg-[#FFFFFF] rounded-lg  items-center justify-center flex-col space-y-2 py-16 border border-black/20">
                 <div class="">
                     <img src="./jobs.png" alt="">
                 </div>
-                <h1 class=" font-semibold text-[40px]">No jobs available</h1>
-                <p class=" text-[24px]">Check back soon for new job opportunities</p>
+                <h1 class=" font-semibold text-[20px] sm:text-[40px]">No jobs available</h1>
+                <p class=" text-[16px] sm:text-[24px]">Check back soon for new job opportunities</p>
              </div>
         `;
         return;
