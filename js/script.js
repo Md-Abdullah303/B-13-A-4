@@ -190,7 +190,7 @@ function renderInterview() {
 
     for (let interviewItem of interviewList) {
         const div = document.createElement("div");
-        div.className = "card bg-[#FFFFFF] p-6 flex justify-between items-start gap-2 border border-[#323B49]/20 rounded-[9px]";
+        div.className = "card hover:shadow-xl transition-all duration-300 bg-[#FFFFFF] p-6 flex justify-between items-start gap-2 border border-[#323B49]/20 rounded-[9px]";
         div.attributes = `data-id="${interviewItem.id}"`;
         // console.log(interviewItem.id)
         div.innerHTML = `
@@ -237,7 +237,7 @@ function renderRejected() {
 
     for (let rejectedItem of rejectedList) {
         const div = document.createElement("div");
-        div.className = "card bg-[#FFFFFF] p-6 flex justify-between items-start gap-2 border border-[#323B49]/20 rounded-[9px]";
+        div.className = "card hover:shadow-xl transition-all duration-300 bg-[#FFFFFF] p-6 flex justify-between items-start gap-2 border border-[#323B49]/20 rounded-[9px]";
         div.attributes = `data-id="${rejectedItem.id}"`;
         div.innerHTML = `
         <!-- card info -->
